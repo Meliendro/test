@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contatto Professionale</title>
+
+  <style>
+    body {
+      margin: 0;
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Arial, sans-serif;
+      background: linear-gradient(to bottom, #b30000, #d9d9d9);
+      min-height: 100vh;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+
+    .card {
+      background: #ffffff;
+      width: 100%;
+      max-width: 420px;
+      border-radius: 18px;
+      box-shadow: 0 12px 30px rgba(0,0,0,0.25);
+      padding: 24px;
+      box-sizing: border-box;
+    }
+
+    .header {
+      text-align: center;
+      margin-bottom: 20px;
+    }
+
+    .photo {
+      width: 120px;
+      height: 120px;
+      border-radius: 50%;
+      object-fit: cover;
+      border: 4px solid #b30000;
+      margin-bottom: 12px;
+    }
+
+    h1 {
+      margin: 6px 0 2px;
+      font-size: 22px;
+      color: #222;
+    }
+
+    .title {
+      font-size: 15px;
+      color: #666;
+    }
+
+    .section {
+      margin-top: 18px;
+    }
+
+    .section h2 {
+      font-size: 13px;
+      color: #b30000;
+      margin-bottom: 8px;
+      text-transform: uppercase;
+      letter-spacing: 0.6px;
+    }
+
+    .item {
+      font-size: 15px;
+      color: #333;
+      margin-bottom: 6px;
+      line-height: 1.4;
+    }
+
+    .item a {
+      color: #b30000;
+      text-decoration: none;
+    }
+
+    .btn {
+      display: block;
+      margin-top: 22px;
+      text-align: center;
+      background: #b30000;
+      color: #ffffff;
+      text-decoration: none;
+      padding: 14px;
+      border-radius: 10px;
+      font-weight: 600;
+      font-size: 16px;
+    }
+
+    .btn:hover {
+      background: #8f0000;
+    }
+  </style>
+</head>
+
+<body>
+
+  <div class="card">
+
+    <!-- FOTO + NOME -->
+    <div class="header">
+      <img src="FOTO1.jpg" alt="Foto profilo" class="photo">
+      <h1>Mario Rossi</h1>
+      <div class="title">Manager</div>
+    </div>
+
+    <!-- CONTATTI PERSONALI -->
+    <div class="section">
+      <h2>Contatti</h2>
+      <div class="item">📞 Fisso: <a href="tel:+390412345678">+39 041 2345678</a></div>
+      <div class="item">📱 Mobile: <a href="tel:+393331234567">+39 333 1234567</a></div>
+      <div class="item">✉️ Email: <a href="mailto:mario.rossi@email.it">mario.rossi@email.it</a></div>
+    </div>
+
+    <!-- AZIENDA -->
+    <div class="section">
+      <h2>Azienda</h2>
+      <div class="item">🏢 Ragione sociale: Rossi Consulting S.r.l.</div>
+      <div class="item">📍 Via Roma 10</div>
+      <div class="item">35100 – Padova (PD)</div>
+      <div class="item">🇮🇹 Italia</div>
+      <div class="item">☎️ Tel. azienda: <a href="tel:+390498765432">+39 049 8765432</a></div>
+    </div>
+
+    <!-- PULSANTE VCARD -->
+    <a class="btn" href="contatto.vcf">
+      ➕ Salva in rubrica
+    </a>
+
+  </div>
+
+</body>
+</html>
